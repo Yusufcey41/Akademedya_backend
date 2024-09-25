@@ -53,7 +53,7 @@ namespace akademedya_backend.Data.Context
 
                 entity.Property(i => i.Email).HasColumnName("email").HasColumnType("nvarchar(255)").IsRequired();
 
-                entity.Property(i => i.Password).HasColumnName("password").HasColumnType("nvarchar(20)").IsRequired();
+                entity.Property(i => i.Password).HasColumnName("password").HasColumnType("nvarchar(255)").IsRequired();
 
                 entity.Property(i => i.isActive).HasColumnName("active").HasColumnType("bit").IsRequired();
 
